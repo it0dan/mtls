@@ -1,0 +1,22 @@
+{
+  "name": "mtls",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/it0dan/mtls.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/it0dan/mtls/issues"
+  },
+  "homepage": "https://github.com/it0dan/mtls#readme"
+}
