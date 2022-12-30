@@ -18,13 +18,13 @@ This is a example of how to create self-signed certificate with [OpenSSL](https:
   - [cURL](https://curl.se/) - Command line tool to make HTTP requests (optional)
   - [Postman](https://postman.com/) -API Testing tool (optional)
 
-## Installation
+## ⚙ Installation
 
 ```bash
 $ npm install
 ```
 
-## Creating certificates
+## 🔐 Creating certificates
 
 Create a folder called certificates and inside this folder run the commands listed below:
 
@@ -62,45 +62,46 @@ $ npm run start:dev
 $ npm run start
 ```
 
-## Testing with cURL
+## 🎬 Testing with cURL
 
 In case you are using *cURL*, run the following command inside certificates folder:
 ```bash
 $ curl --cacert ca.crt --key client.key --cert client.crt https://localhost:3000/ -v
 ```
 
-## Testing with Postman
+## 🎬 Testing with Postman
 
 To test with Postman, follow the instructions below:
 
 Go to Settings > Certificates:
 <p align="center">
   <a>
-  <img src="https://i.ibb.co/7Cb30dZ/postman-certificates.png" width="200" alt="postman-certificates" />
+  <img src="https://i.ibb.co/7Cb30dZ/postman-certificates.png" alt="postman-certificates" />
   </a>
 </p>
 
 Now turn on CA Certificates switch and import ca.crt file into PEM file:
 <p align="center">
   <a>
-  <img src="https://i.ibb.co/5LT0v1X/postman-certificates2.png" width="200" alt="postman-certificates2" />
+  <img src="https://i.ibb.co/5LT0v1X/postman-certificates2.png" alt="postman-certificates2" />
   </a>
 </p>
 
 Ater that, click in "Add Certificate" and fill the fields like the image below, and then click on the "Add" button:
 <p align="center">
   <a>
-  <img src="https://i.ibb.co/dgxCfm4/postman-certificates3.png" width="200" alt="postman-certificates3" />
+  <img src="https://i.ibb.co/dgxCfm4/postman-certificates3.png" alt="postman-certificates3" />
   </a>
 </p>
 
 To finish, create a new request with our server, your response should look like this:
 <p align="center">
   <a>
-  <img src="https://i.ibb.co/LpTC89g/postman-certificates4.png" width="200" alt="postman-certificates4" />
+  <img src="https://i.ibb.co/LpTC89g/postman-certificates4.png" alt="postman-certificates4" />
   </a>
 </p>
 
 ## 🐛 Problem?
 If you find trouble to have some fun with this code feel confortable to open a new `ISSUE`.
+
 But if you find it and know how to solve, please open a `PULL REQUEST`.
