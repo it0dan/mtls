@@ -87,7 +87,7 @@ Now turn on CA Certificates switch and import ca.crt file into PEM file:
   </a>
 </p>
 
-Ater that, click in "Add Certificate" and fill the fields like the image below, and then click on the "Add" button:
+After that, click in "Add Certificate" and fill the fields like the image below, and then click on the "Add" button:
 <p align="center">
   <a>
   <img src="https://i.ibb.co/dgxCfm4/postman-certificates3.png" alt="postman-certificates3" />
